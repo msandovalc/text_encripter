@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/encryption.ico" type="image/x-icon"/>
+</head>
+<body>
+    <div class="container">
+
+    <header class="header">
+        <img class="logo" src="images/alura-logo.svg" alt="Logo de Alura">
+    </header>
+
+    <main class="main__container">
+        <form class="form">
+          <textarea class="frm__input_text" id="input_text" placeholder="Ingrese el texto aqui" required></textarea>
+          <div class="frm__info">
+            <span class="frm__icon"><img src="images/icon.svg"></span>
+            <p class="frm__advice">Solo letras minúsculas y sin acentos</p>
+          </div>
+          <div class="btn__container">
+            <input class="btn btn-encrypt" id="btn-encrypt" type="button" value="Encriptar">
+            <input class="btn btn-decrypt" id="btn-decrypt" type="button" value="Desencriptar">
+          </div>
+        </form>
+        <section class="decrypt">
+          <div class="decrypt__msg">
+            <img class="decrypt__msg__img_body" src="images/person.svg" alt="Persona">
+            <h2 class="decrypt__msg__title">Ningún mensaje fue encontrado</h2>
+            <p class="decrypt__msg__paragraph">Ingresa el texto que desees encriptar o desencriptar.</p>
+          </div>
+          <div class="decrypt__outcome">
+            <textarea class="encrypted_data" id="encrypted-data" readonly></textarea>
+            <input class="btn btn-copy" id="btn-copy" type="button" value="Copiar">
+          </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="copyright">Developed by Manuel Sandoval &copy; 2024</p>
+        <div class="links__container">
+            <a class="link" href="https://www.linkedin.com/in/manuelsandovalc/">
+                <i class='bx bxl-linkedin-square'></i>
+            </a>
+            <a class="link" href="https://github.com/msandovalc">
+                <i class='bx bxl-github'></i>
+            </a>
+        </div>
+    </footer>
+
+    </div>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
