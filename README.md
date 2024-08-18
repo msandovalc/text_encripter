@@ -87,3 +87,8 @@ Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE](LICENSE) pa
 
 - **Oracle Next Education** por la oportunidad de aprendizaje.
 - **Alura LATAM** por proporcionar los recursos educativos.
+  
+## 🏅 Insignia Oracle Next Education:
+![Decodificador de texto](https://github.com/user-attachments/assets/77eab1bf-b371-458c-9cc5-d94e34134a47)
+
+
