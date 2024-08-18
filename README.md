@@ -52,13 +52,13 @@ Este proyecto es parte de un challenge de **Oracle Next Education** y **Alura LA
 1. Clona este repositorio:
 
     ```bash
-    git clone https://github.com/msandovalc/text_encripter.git
+    git clone https://github.com/msandovalc/text_encrypter.git
     ```
 
 2. Navega hasta la carpeta del proyecto:
 
     ```bash
-    cd text_encripter
+    cd text_encrypter
     ```
 
 3. Abre el archivo `index.html` en tu navegador preferido.
